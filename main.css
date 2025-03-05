@@ -1,0 +1,44 @@
+.plans-title {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+
+}
+
+.plans-bio {
+    text-align: center;
+    font-family: sans-serif;
+
+}
+
+.plans-container {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: 0 auto;
+    gap: 30px;
+
+}
+
+.plan {
+    border: 1px solid #444;
+    min-height: 500px;
+    width: 46%;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.plan-recommended {
+    background-color: blue;
+    color: #fff;
+    padding: 8px;
+    border-radius: 0 0 5px 5px;
+    position: absolute;
+    top: 0;
+    left: 33%;
+}
+
+.plan-premium {
+    position: relative;
+}
